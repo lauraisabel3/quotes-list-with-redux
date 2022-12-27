@@ -1,0 +1,76 @@
+
+.form-container {
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  background-color: rgb(221, 221, 245);
+
+  label {
+    text-align: center;
+  }
+  input {
+    width: 100%;
+    height: 28px;
+    margin: 12px 0;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    font-family: inherit;
+  }
+
+  button {
+    width: 128px;
+    height: 36px;
+    cursor: pointer;
+    background-color:rgb(130, 161, 255);
+    border-radius: 4px;
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+  }
+}
+
+.quotes-container {
+  max-width: 600px;
+  height: auto;
+  margin: 40px auto;
+  border-radius: 8px;
+  border: 1px solid grey;
+  overflow: hidden;
+  background-color: aquamarine;
+  
+  h3 {
+    padding: 12px;
+    text-align: center;
+  }
+
+  .quote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: rgb(236, 194, 253);
+    border-bottom: 1px solid grey;
+
+    button {
+      border: none;
+      background-color: transparent;
+    }
+
+    .btn-del {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+  }
+
+  div:last-child {
+    border-bottom: none;
+  }
+
+}
