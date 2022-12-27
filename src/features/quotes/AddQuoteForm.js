@@ -9,7 +9,7 @@ const AddQuoteForm = () => {
   const dispatch = useDispatch()
 
   const onAddQuote = () => {
-    if((content.length > 0) && (!content.trim() === "")) {
+    if((content.length > 0)) {
       dispatch(addQuote(content))
       setContent('')
     }
